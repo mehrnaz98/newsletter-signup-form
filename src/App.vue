@@ -1,6 +1,6 @@
 <template>
   <main class="flex min-h-screen justify-center items-center bg-[#36384D]">
-    <section class="bg-white rounded-3xl p-[3rem] flex flex-row">
+    <div class="bg-white rounded-3xl p-[3rem] flex flex-row">
       <div>
         <h1 class="text-[3rem]">Stay updated!</h1>
         <p class="text-[1rem]">
@@ -11,18 +11,13 @@
           <li>Measuring to ensure updates are a success</li>
           <li>And much more!</li>
         </ul>
-        <form class="flex flex-col max-w-[5rem]">
+        <form class="flex flex-col max-w-[6rem]">
           <label for="email">Email address</label>
           <input type="email" id="email" placeholder="email@company.com" />
           <button class="bg-[#232742]">Subscribe to monthly newsletter</button>
         </form>
       </div>
-      <img
-        src="./assets/images/illustration-sign-up-desktop.svg"
-        alt=""
-        class="w-[13.6rem]"
-      />
-    </section>
+    </div>
   </main>
 </template>
 
