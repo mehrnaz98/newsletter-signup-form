@@ -1,6 +1,6 @@
 <template>
   <main class="flex min-h-screen justify-center items-center bg-[#36384D]">
-    <div class="container bg-white rounded-3xl p-[3rem] flex flex-row">
+    <div class="container bg-white rounded-3xl">
       <picture class="responsive-image">
         <source
           media="(min-width: 768px)"
