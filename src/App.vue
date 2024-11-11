@@ -18,7 +18,7 @@
           <li>Measuring to ensure updates are a success</li>
           <li>And much more!</li>
         </ul>
-        <form class="flex flex-col max-w-[6rem]">
+        <form class="flex flex-col">
           <label for="email">Email address</label>
           <input type="email" id="email" placeholder="email@company.com" />
           <button class="bg-[#232742]">Subscribe to monthly newsletter</button>
