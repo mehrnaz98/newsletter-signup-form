@@ -1,23 +1,27 @@
 <template>
   <main class="flex min-h-screen justify-center items-center bg-[#36384D]">
-    <section class="bg-white rounded-3xl p-[3rem]">
-      <h1 class="text-[3rem]">Stay updated!</h1>
-      <p class="text-[1rem]">
-        Join 60,000+ product managers receiving monthly updates on:
-      </p>
-      <ul>
-        <li>
-          <img src="./assets/images/icon-list.svg" alt="" /> Product discovery
-          and building what matters
-        </li>
-        <li>Measuring to ensure updates are a success</li>
-        <li>And much more!</li>
-      </ul>
-      <form>
-        <label for="email">Email address</label>
-        <input type="email" id="email" placeholder="email@company.com" />
-        <button>Subscribe to monthly newsletter</button>
-      </form>
+    <section class="bg-white rounded-3xl p-[3rem] flex flex-row">
+      <div>
+        <h1 class="text-[3rem]">Stay updated!</h1>
+        <p class="text-[1rem]">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul class="custom-list">
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+        <form class="flex flex-col max-w-[5rem]">
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="email@company.com" />
+          <button class="bg-[#232742]">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+      <img
+        src="./assets/images/illustration-sign-up-desktop.svg"
+        alt=""
+        class="w-[13.6rem]"
+      />
     </section>
   </main>
 </template>
