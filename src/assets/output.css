@@ -554,6 +554,40 @@ video {
   display: none;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .flex {
   display: flex;
 }
@@ -562,8 +596,8 @@ video {
   min-height: 100vh;
 }
 
-.min-w-\[30rem\] {
-  min-width: 30rem;
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -574,9 +608,13 @@ video {
   justify-content: center;
 }
 
-.bg-green-400 {
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.bg-\[\#232742\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  background-color: rgb(35 39 66 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#36384D\] {
@@ -593,18 +631,66 @@ video {
   font-size: 1rem;
 }
 
-.text-\[2rem\] {
-  font-size: 2rem;
-}
-
-.text-\[5rem\] {
-  font-size: 5rem;
-}
-
-.text-\[4rem\] {
-  font-size: 4rem;
-}
-
 .text-\[3rem\] {
   font-size: 3rem;
+}
+
+.custom-list {
+  list-style: none;
+}
+
+.custom-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.custom-list li::before {
+  content: "";
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background-image: url("./images/icon-list.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.responsive-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.form-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .responsive-image {
+    flex: 1;
+    order: 2;
+  }
+
+  .form-section {
+    flex: 1;
+    margin-top: 0;
+    margin-right: 20px;
+    order: 1;
+  }
 }
