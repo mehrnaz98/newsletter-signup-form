@@ -600,8 +600,8 @@ video {
   min-height: 100vh;
 }
 
-.max-w-\[20rem\] {
-  max-width: 20rem;
+.w-auto {
+  width: auto;
 }
 
 .max-w-\[50rem\] {
@@ -639,10 +639,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .text-\[1rem\] {
   font-size: 1rem;
 }
@@ -676,7 +672,7 @@ video {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   padding: 20px;
 }
 
@@ -708,5 +704,11 @@ video {
     margin-top: 0;
     padding: 3rem;
     order: 1;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:max-w-\[50rem\] {
+    max-width: 50rem;
   }
 }
