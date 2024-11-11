@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-list {
+  list-style: none;
+}
+
+.custom-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.custom-list li::before {
+  content: "";
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background-image: url("./images/icon-list.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
