@@ -1,6 +1,6 @@
 <template>
   <main class="flex min-h-screen justify-center items-center bg-[#36384D]">
-    <section class="bg-white rounded-3xl">
+    <section class="bg-white rounded-3xl p-[3rem]">
       <h1 class="text-[3rem]">Stay updated!</h1>
       <p class="text-[1rem]">
         Join 60,000+ product managers receiving monthly updates on:
