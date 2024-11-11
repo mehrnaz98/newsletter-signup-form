@@ -19,7 +19,7 @@
   width: 18px;
   height: 18px;
   background-image: url("./images/icon-list.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   margin-right: 1rem;
 }
