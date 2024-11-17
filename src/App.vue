@@ -10,7 +10,7 @@
         />
         <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" />
       </picture>
-      <div class="form-section">
+      <div class="form-section space-y-3">
         <h1 class="text-[2.8rem] roboto-bold">Stay updated!</h1>
         <p class="text-[1rem]">
           Join 60,000+ product managers receiving monthly updates on:
