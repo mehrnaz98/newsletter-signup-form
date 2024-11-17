@@ -9,7 +9,10 @@
       class="mt-2 border border-[#B3B2B7] text-[0.8rem] p-3 rounded-md"
       placeholder="email@company.com"
     />
-    <button class="bg-[#232742] text-white mt-4 text-[0.8rem] p-3 rounded-md">
+    <button
+      class="bg-[#232742] text-white mt-4 text-[0.8rem] p-3 rounded-md"
+      onclick="alert('hi')"
+    >
       Subscribe to monthly newsletter
     </button>
   </form>
