@@ -643,6 +643,22 @@ video {
   font-size: 3rem;
 }
 
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
+
+.text-\[2\.7rem\] {
+  font-size: 2.7rem;
+}
+
+.text-\[2\.9rem\] {
+  font-size: 2.9rem;
+}
+
+.text-\[2\.8rem\] {
+  font-size: 2.8rem;
+}
+
 .roboto-regular {
   font-family: "Roboto", serif;
   font-weight: 400;
