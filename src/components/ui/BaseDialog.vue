@@ -1,5 +1,5 @@
 <template>
-  <img src="" alt="" />
+  <img src="../../assets/images/icon-success.svg" alt="" />
   <h2>Thanks for subscribing!</h2>
   <p>
     A confirmation email has been sent to ash@loremcompany.com. Please open it
