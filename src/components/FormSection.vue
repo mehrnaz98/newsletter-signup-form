@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white rounded-3xl w-auto sm:max-w-[50rem] m-5">
-    <div class="container">
+    <div class="container" v-if="!isDialogVisible">
       <picture class="responsive-image">
         <source
           media="(min-width: 768px)"
@@ -21,7 +21,7 @@
         <TheForm />
       </div>
     </div>
-    <BaseDialog />
+    <BaseDialog v-if="isDialogVisible" />
   </div>
 </template>
 
