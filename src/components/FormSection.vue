@@ -21,9 +21,11 @@
         <TheForm />
       </div>
     </div>
+    <BaseDialog />
   </div>
 </template>
 
 <script setup>
 import TheForm from "./TheForm.vue";
+import BaseDialog from "./ui/BaseDialog.vue";
 </script>
