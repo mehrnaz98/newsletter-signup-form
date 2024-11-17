@@ -20,10 +20,19 @@
           <li>Measuring to ensure updates are a success</li>
           <li>And much more!</li>
         </ul>
-        <form class="flex flex-col">
-          <label for="email" class="roboto-bold">Email address</label>
-          <input type="email" id="email" placeholder="email@company.com" />
-          <button class="bg-[#232742]">Subscribe to monthly newsletter</button>
+        <form class="flex flex-col max-w-[20rem]">
+          <label for="email" class="roboto-bold text-[0.7rem] mt-7"
+            >Email address</label
+          >
+          <input
+            type="email"
+            id="email"
+            class="mt-2 border border-[#B3B2B7] text-[0.8rem] p-3 rounded-md"
+            placeholder="email@company.com"
+          />
+          <button class="bg-[#232742] mt-4">
+            Subscribe to monthly newsletter
+          </button>
         </form>
       </div>
     </div>
