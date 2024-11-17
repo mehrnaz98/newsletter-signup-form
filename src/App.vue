@@ -1,5 +1,7 @@
 <template>
-  <main class="flex min-h-screen justify-center items-center bg-[#36384D]">
+  <main
+    class="flex min-h-screen justify-center items-center bg-[#36384D] roboto-regular"
+  >
     <div class="container bg-white rounded-3xl w-auto sm:max-w-[50rem] m-5">
       <picture class="responsive-image">
         <source
@@ -9,7 +11,7 @@
         <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" />
       </picture>
       <div class="form-section">
-        <h1 class="text-[3rem]">Stay updated!</h1>
+        <h1 class="text-[3rem] roboto-bold">Stay updated!</h1>
         <p class="text-[1rem]">
           Join 60,000+ product managers receiving monthly updates on:
         </p>
@@ -19,7 +21,7 @@
           <li>And much more!</li>
         </ul>
         <form class="flex flex-col">
-          <label for="email">Email address</label>
+          <label for="email" class="roboto-bold">Email address</label>
           <input type="email" id="email" placeholder="email@company.com" />
           <button class="bg-[#232742]">Subscribe to monthly newsletter</button>
         </form>
