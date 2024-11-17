@@ -30,7 +30,7 @@
             class="mt-2 border border-[#B3B2B7] text-[0.8rem] p-3 rounded-md"
             placeholder="email@company.com"
           />
-          <button class="bg-[#232742] mt-4">
+          <button class="bg-[#232742] text-white mt-4 text-[0.8rem] p-4">
             Subscribe to monthly newsletter
           </button>
         </form>

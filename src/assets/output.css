@@ -720,6 +720,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .text-\[1rem\] {
   font-size: 1rem;
 }
@@ -759,6 +763,11 @@ video {
 .text-\[\#B3B2B7\] {
   --tw-text-opacity: 1;
   color: rgb(179 178 183 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .roboto-regular {
