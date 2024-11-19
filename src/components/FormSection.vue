@@ -21,7 +21,7 @@
         <TheForm @form-submitted="showDialog" />
       </div>
     </div>
-    <BaseDialog v-if="isDialogVisible" />
+    <BaseDialog v-if="isDialogVisible" @dismiss="hideDialog" />
   </div>
 </template>
 
