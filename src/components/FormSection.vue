@@ -34,4 +34,7 @@ const isDialogVisible = ref(false);
 function showDialog() {
   isDialogVisible.value = true;
 }
+function hideDialog() {
+  isDialogVisible.value = false;
+}
 </script>
