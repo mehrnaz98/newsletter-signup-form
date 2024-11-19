@@ -7,4 +7,4 @@
   </button>
 </template>
 
-<script></script>
+<script setup></script>
