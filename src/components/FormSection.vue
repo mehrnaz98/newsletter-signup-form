@@ -31,9 +31,11 @@ import TheForm from "./TheForm.vue";
 import BaseDialog from "./ui/BaseDialog.vue";
 
 const isDialogVisible = ref(false);
+
 function showDialog() {
   isDialogVisible.value = true;
 }
+
 function hideDialog() {
   isDialogVisible.value = false;
 }
