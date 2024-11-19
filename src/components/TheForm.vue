@@ -10,8 +10,8 @@
       placeholder="email@company.com"
     />
     <button
+      type="submit"
       class="bg-[#232742] text-white mt-4 text-[0.8rem] p-3 rounded-md"
-      onclick="alert('hi')"
     >
       Subscribe to monthly newsletter
     </button>
