@@ -19,4 +19,9 @@
 </template>
 
 <script setup>
+const emit = defineEmits(["form-submitted"]);
+
+function submitForm() {
+  emit("form-submitted");
+}
 </script>
