@@ -19,6 +19,7 @@
 </template>
 
 <script setup>
+import BaseButton from "./ui/BaseButton.vue";
 const emit = defineEmits(["form-submitted"]);
 
 function submitForm() {
