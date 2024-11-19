@@ -13,3 +13,11 @@
     <button>Dismiss message</button>
   </section>
 </template>
+
+<script setup>
+const emit = defineEmits(["dismiss"]);
+
+function dismissDialog() {
+  emit("dismiss");
+}
+</script>
