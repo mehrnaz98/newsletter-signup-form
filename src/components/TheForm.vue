@@ -1,5 +1,5 @@
 <template>
-  <form class="flex flex-col">
+  <form @submit.prevent="submitForm" class="flex flex-col">
     <label for="email" class="roboto-bold text-[0.7rem] mt-7"
       >Email address</label
     >
