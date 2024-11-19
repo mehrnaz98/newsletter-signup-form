@@ -10,7 +10,7 @@
       A confirmation email has been sent to ash@loremcompany.com. Please open it
       and click the button inside to confirm your subscription.
     </p>
-    <button @click="dismissDialog">Dismiss message</button>
+    <base-button @click="dismissDialog">Dismiss message</base-button>
   </section>
 </template>
 

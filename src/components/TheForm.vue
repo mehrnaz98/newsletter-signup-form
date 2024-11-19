@@ -9,12 +9,7 @@
       class="mt-2 border border-[#B3B2B7] text-[0.8rem] p-3 rounded-md"
       placeholder="email@company.com"
     />
-    <button
-      type="submit"
-      class="bg-[#232742] text-white mt-4 text-[0.8rem] p-3 rounded-md"
-    >
-      Subscribe to monthly newsletter
-    </button>
+    <base-button type="submit"> Subscribe to monthly newsletter </base-button>
   </form>
 </template>
 
