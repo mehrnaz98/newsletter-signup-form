@@ -6,7 +6,7 @@
     <h2 class="roboto-bold text-[3rem] leading-none">
       Thanks for subscribing!
     </h2>
-    <p class="text-[0.9rem]">
+    <p class="text-[0.9rem] pb-4">
       A confirmation email has been sent to ash@loremcompany.com. Please open it
       and click the button inside to confirm your subscription.
     </p>
