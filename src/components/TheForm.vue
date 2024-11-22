@@ -38,6 +38,10 @@ function validateForm() {
 }
 
 function submitForm() {
+  validateForm();
+  if (!formIsValid.value) {
+    return;
+  }
   emit("form-submitted");
 }
 </script>
