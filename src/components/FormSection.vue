@@ -30,6 +30,7 @@ import { ref } from "vue";
 import TheForm from "./TheForm.vue";
 import BaseDialog from "./ui/BaseDialog.vue";
 
+const email = ref("");
 const isDialogVisible = ref(false);
 
 function showDialog() {
