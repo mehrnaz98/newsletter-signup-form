@@ -15,6 +15,7 @@
 </template>
 
 <script setup>
+import { inject } from "vue";
 import BaseButton from "./BaseButton.vue";
 
 const emit = defineEmits(["dismiss"]);
