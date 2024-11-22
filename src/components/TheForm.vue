@@ -20,6 +20,7 @@
       ]"
       placeholder="email@company.com"
     />
+
     <base-button type="submit"> Subscribe to monthly newsletter </base-button>
   </form>
 </template>
