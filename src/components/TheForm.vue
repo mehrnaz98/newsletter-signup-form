@@ -18,6 +18,10 @@ import { reactive } from "vue";
 import BaseButton from "./ui/BaseButton.vue";
 const emit = defineEmits(["form-submitted"]);
 
+const email = reactive({
+  val: "",
+  isValid: true,
+});
 function submitForm() {
   emit("form-submitted");
 }
