@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { reactive, provide } from "vue";
+import { reactive } from "vue";
 import BaseButton from "./ui/BaseButton.vue";
 const emit = defineEmits(["form-submitted", "email"]);
 
