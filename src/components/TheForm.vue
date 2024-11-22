@@ -22,6 +22,11 @@ const email = reactive({
   val: "",
   isValid: true,
 });
+
+const formIsValid = reactive({
+  value: true,
+});
+
 function submitForm() {
   emit("form-submitted");
 }
