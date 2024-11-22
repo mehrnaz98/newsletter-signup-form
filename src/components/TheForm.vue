@@ -29,7 +29,7 @@
 <script setup>
 import { reactive, provide } from "vue";
 import BaseButton from "./ui/BaseButton.vue";
-const emit = defineEmits(["form-submitted"]);
+const emit = defineEmits(["form-submitted", "email"]);
 
 const email = reactive({
   val: "",
@@ -56,5 +56,6 @@ function submitForm() {
     return;
   }
   emit("form-submitted");
+  emit("email", email.val);
 }
 </script>
