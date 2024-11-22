@@ -1,8 +1,13 @@
 <template>
-  <form @submit.prevent="submitForm" class="flex flex-col">
-    <label for="email" class="roboto-bold text-[0.7rem] mt-7"
-      >Email address</label
-    >
+  <form @submit.prevent="submitForm" novalidate class="flex flex-col">
+    <div class="flex items-center justify-between mt-7">
+      <label for="email" class="roboto-bold text-[0.7rem]">
+        Email address
+      </label>
+      <p v-if="!email.isValid" class="text-red-600 text-[0.7rem]">
+        Valid email required
+      </p>
+    </div>
     <input
       v-model="email.val"
       type="email"
