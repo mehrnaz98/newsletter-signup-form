@@ -27,6 +27,16 @@ const formIsValid = reactive({
   value: true,
 });
 
+function validateForm() {
+  formIsValid.value = true;
+  if (email.val === "" || !email.val.includes("@")) {
+    email.isValid = false;
+    formIsValid = false;
+  } else {
+    email.isValid = true;
+  }
+}
+
 function submitForm() {
   emit("form-submitted");
 }
