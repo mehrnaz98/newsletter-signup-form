@@ -36,6 +36,9 @@ const isDialogVisible = ref(false);
 function setEmail(emailAddress) {
   email.value = emailAddress;
 }
+
+provide("email", email);
+
 function showDialog() {
   isDialogVisible.value = true;
 }
