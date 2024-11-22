@@ -19,6 +19,7 @@
           : 'border-red-600 bg-red-100 text-red-600',
       ]"
       placeholder="email@company.com"
+      @blur="validateForm"
     />
 
     <base-button type="submit"> Subscribe to monthly newsletter </base-button>
