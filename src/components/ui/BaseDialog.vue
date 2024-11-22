@@ -18,6 +18,8 @@
 import { inject } from "vue";
 import BaseButton from "./BaseButton.vue";
 
+const email = inject("email");
+
 const emit = defineEmits(["dismiss"]);
 
 function dismissDialog() {
