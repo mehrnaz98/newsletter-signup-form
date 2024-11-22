@@ -18,7 +18,7 @@
           <li>Measuring to ensure updates are a success</li>
           <li>And much more!</li>
         </ul>
-        <TheForm @form-submitted="showDialog" />
+        <TheForm @form-submitted="showDialog" @email="setEmail" />
       </div>
     </div>
     <BaseDialog v-if="isDialogVisible" @dismiss="hideDialog" />
