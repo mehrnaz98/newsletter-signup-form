@@ -4,6 +4,7 @@
       >Email address</label
     >
     <input
+      v-model="email.val"
       type="email"
       id="email"
       class="mt-2 border border-[#B3B2B7] text-[0.8rem] p-3 rounded-md"
