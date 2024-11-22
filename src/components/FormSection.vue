@@ -33,6 +33,9 @@ import BaseDialog from "./ui/BaseDialog.vue";
 const email = ref("");
 const isDialogVisible = ref(false);
 
+function setEmail(emailAddress) {
+  email.value = emailAddress;
+}
 function showDialog() {
   isDialogVisible.value = true;
 }
