@@ -12,7 +12,12 @@
       v-model="email.val"
       type="email"
       id="email"
-      class="mt-2 border border-[#B3B2B7] text-[0.8rem] p-3 rounded-md"
+      :class="[
+        'mt-2 border text-[0.8rem] p-3 rounded-md',
+        email.isValid
+          ? 'border-[#B3B2B7] bg-white text-black'
+          : 'border-red-600 bg-red-100 text-red-600',
+      ]"
       placeholder="email@company.com"
     />
     <base-button type="submit"> Subscribe to monthly newsletter </base-button>
