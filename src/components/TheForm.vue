@@ -44,7 +44,7 @@ function validateForm() {
   formIsValid.value = true;
   if (email.val === "" || !email.val.includes("@")) {
     email.isValid = false;
-    formIsValid = false;
+    formIsValid.value = false;
   } else {
     email.isValid = true;
   }
