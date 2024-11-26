@@ -7,13 +7,13 @@
       <a
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
-        class="text-[#337261] hover:font-bold"
+        class="text-[#FE9246] hover:font-bold"
         >Frontend Mentor</a
       >. Coded by
       <a
         href="https://github.com/mehrnaz98/"
         target="_blank"
-        class="text-[#337261] hover:font-bold"
+        class="text-[#FE9246] hover:font-bold"
         >Mehrnaz Eftekhari</a
       >.
     </div>
