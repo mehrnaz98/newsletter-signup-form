@@ -79,8 +79,8 @@ I aim to enhance my skills in creating reusable Vue components and improving acc
 
 ## Author
 
-- GitHub - [yourusername](https://github.com/mehrnaz98)
-- Frontend Mentor - [yourusername](https://www.frontendmentor.io/profile/mehrnaz98)
+- GitHub - [Mehrnaz98](https://github.com/mehrnaz98)
+- Frontend Mentor - [Mehrnaz98](https://www.frontendmentor.io/profile/mehrnaz98)
 
 ## Acknowledgments
 
