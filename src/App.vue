@@ -4,8 +4,10 @@
   >
     <FormSection />
   </main>
+  <TheFooter />
 </template>
 
 <script setup>
 import FormSection from "./components/FormSection.vue";
+import TheFooter from "./components/TheFooter.vue";
 </script>
