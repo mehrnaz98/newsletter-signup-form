@@ -788,6 +788,11 @@ video {
   color: rgb(76 78 97 / var(--tw-text-opacity));
 }
 
+.text-\[\#FE9246\] {
+  --tw-text-opacity: 1;
+  color: rgb(254 146 70 / var(--tw-text-opacity));
+}
+
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
