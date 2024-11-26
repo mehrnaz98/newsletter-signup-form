@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div
-      class="sm:text-xs manrope-medium text-[0.7rem] text-center bg-[#36384D] text-[#4C4E61] pb-3"
+      class="sm:text-xs manrope-medium text-[0.7rem] text-center bg-[#36384D] text-white pb-3"
     >
       Challenge by
       <a
